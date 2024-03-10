@@ -33,10 +33,10 @@ const Home = () => {
                 <img src={shelf}></img>
               </div>
             </div>
-
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
