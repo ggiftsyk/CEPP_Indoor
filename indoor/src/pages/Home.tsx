@@ -2,6 +2,7 @@ import frameRoom from "../assets/frameRoom.svg";
 import meeting from "../assets/meetingRoom.svg";
 import table from "../assets/table.svg";
 import shelf from "../assets/shelf.svg";
+import PointMover from "./PointMover";
 
 const Home = () => {
   return (
@@ -34,9 +35,11 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+          <PointMover />
         </div>
       </div>
-      
+
     </div>
   );
 };
